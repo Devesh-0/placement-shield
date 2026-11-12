@@ -1,0 +1,155 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Segoe UI", Arial, sans-serif;
+  background: #f4f6fb;
+  color: #1f2937;
+}
+
+.app {
+  max-width: 760px;
+  margin: 0 auto;
+  padding: 24px 16px;
+}
+
+.header h1 {
+  margin: 0;
+  color: #1e3a8a;
+}
+
+.header p {
+  margin: 6px 0 16px;
+  color: #4b5563;
+}
+
+.nav {
+  display: flex;
+  gap: 8px;
+}
+
+.nav button {
+  background: #e5e7eb;
+  color: #1f2937;
+}
+
+.nav button.active {
+  background: #1e3a8a;
+  color: white;
+}
+
+.card {
+  background: white;
+  border-radius: 10px;
+  padding: 20px;
+  margin-top: 20px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.08);
+}
+
+.card h2 {
+  margin-top: 0;
+}
+
+form label {
+  display: block;
+  margin-bottom: 12px;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+input,
+textarea {
+  display: block;
+  width: 100%;
+  margin-top: 4px;
+  padding: 10px;
+  border: 1px solid #d1d5db;
+  border-radius: 6px;
+  font: inherit;
+  font-weight: normal;
+}
+
+button {
+  padding: 10px 18px;
+  border: none;
+  border-radius: 6px;
+  background: #1e3a8a;
+  color: white;
+  font: inherit;
+  cursor: pointer;
+}
+
+button:disabled {
+  opacity: 0.6;
+  cursor: wait;
+}
+
+.search {
+  display: flex;
+  gap: 8px;
+}
+
+.search input {
+  margin-top: 0;
+}
+
+.badge {
+  padding: 4px 12px;
+  border-radius: 999px;
+  color: white;
+  font-weight: 700;
+}
+
+.badge.low {
+  background: #16a34a;
+}
+
+.badge.medium {
+  background: #ea8c00;
+}
+
+.badge.high {
+  background: #dc2626;
+}
+
+.result {
+  margin-top: 16px;
+  padding-top: 12px;
+  border-top: 1px solid #e5e7eb;
+}
+
+.error {
+  color: #dc2626;
+}
+
+.info {
+  color: #1e3a8a;
+}
+
+.muted {
+  color: #6b7280;
+  font-size: 13px;
+}
+
+.report-list {
+  list-style: none;
+  padding: 0;
+}
+
+.report-list li {
+  border-bottom: 1px solid #e5e7eb;
+  padding: 10px 0;
+}
+
+.report-list p {
+  margin: 4px 0;
+}
+
+.footer {
+  margin-top: 24px;
+  font-size: 13px;
+  color: #6b7280;
+  text-align: center;
+}

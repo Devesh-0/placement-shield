@@ -4,6 +4,8 @@
 
 > **Status:** 🚧 Work in progress. The React frontend is working. The backend (Node.js, Express, MongoDB) for community reports is being built; see [ROADMAP.md](ROADMAP.md).
 
+![Placement Shield flagging a fake job offer as High risk](screenshot.png)
+
 ## The Problem
 
 Students often receive fake job or internship offers that ask for "registration fees", come from personal email addresses, or promise unrealistic pay. Many students can't tell what's genuine, especially for their first offer.
@@ -51,6 +53,8 @@ placement-shield/
 │       └── pages/
 │           ├── Analyze.jsx     # Offer form + risk result
 │           └── Reports.jsx     # Community reports (coming soon)
+├── package.json                # Lets you run `npm run dev` from the main folder
+├── screenshot.png
 ├── README.md
 └── ROADMAP.md
 ```
@@ -59,13 +63,21 @@ placement-shield/
 
 **Requirements:** Node.js 18+
 
+First time only, install the dependencies:
+
 ```
 cd client
 npm install
+cd ..
+```
+
+Then start the app from the main folder:
+
+```
 npm run dev
 ```
 
-Open the link Vite shows (usually `http://localhost:5173`).
+The app opens in your browser at `http://localhost:5173`.
 
 ## Next Steps
 
